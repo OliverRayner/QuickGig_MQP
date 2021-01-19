@@ -1,11 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OliverDragandDrop : MonoBehaviour
 {
+    private Collider2D DragObject;
+    private Collider2D GreenTrigger;
 
     private bool isDragging;
+    private bool GreenScreen;
+    public int Organizer;
+
+    public void Awake()
+    {
+        DragObject = gameObject.GetComponent<Collider2D>();
+        GreenTrigger = GameObject.Find("GreenTrig").GetComponent<Collider2D>();
+    }
 
     public void OnMouseDown()
     {
@@ -23,6 +34,38 @@ public class OliverDragandDrop : MonoBehaviour
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
             transform.Translate(mousePosition);
+
+            if(DragObject.bounds.Intersects(GreenTrigger.bounds))
+            {
+                GreenScreen = true;
+            }
+            else {GreenScreen = false;}
         }
+
+        if (transform.position.y > 5)
+        {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(currentSceneName);
+        }
+
+        if (transform.position.x > 11)
+        {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(currentSceneName);
+        }
+
+        if (transform.position.y < -4.5)
+        {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(currentSceneName);
+        }
+
+        if (transform.position.x < -11)
+        {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(currentSceneName);
+        }
+
+
     }
 }
