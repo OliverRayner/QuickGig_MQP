@@ -13,7 +13,8 @@ public class OliverTimerCountDownGO : MonoBehaviour
     public float delayTime = 5.0f;
     
     public void Restart() {
-        SceneManager.LoadScene(0); // loads current scene
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentSceneName); // loads current scene
     }
     
 

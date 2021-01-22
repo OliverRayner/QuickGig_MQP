@@ -16,12 +16,8 @@ public class OliverTheGreenTrig : MonoBehaviour
     }
     public void Update()
     {
-        // Update proposed solution
-        if (!Input.GetMouseButton(0) && !Input.GetMouseButton(1))
-        {
-            GameObject[] FoodObjects = GameObject.FindGameObjectsWithTag("Drag");
             int EmptyPlate = 0;
-
+            GameObject[] FoodObjects = GameObject.FindGameObjectsWithTag("Drag");
             foreach (GameObject Drag in FoodObjects)
             {
                 Collider2D billCollider = Drag.GetComponent<Collider2D>();
@@ -35,6 +31,5 @@ public class OliverTheGreenTrig : MonoBehaviour
             {
                 SceneManager.LoadScene("DinnerWinner");
             }
-        }
     }
 }
