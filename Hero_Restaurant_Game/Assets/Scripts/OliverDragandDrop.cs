@@ -42,25 +42,25 @@ public class OliverDragandDrop : MonoBehaviour
             else {GreenScreen = false;}
         }
 
-        if (transform.position.y > 5)
+        if (transform.position.y > 3.5)
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(currentSceneName);
         }
 
-        if (transform.position.x > 11)
+        if (transform.position.x > 8.2)
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(currentSceneName);
         }
 
-        if (transform.position.y < -4.5)
+        if (transform.position.y < -1.5)
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(currentSceneName);
         }
 
-        if (transform.position.x < -11)
+        if (transform.position.x < 1.5)
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(currentSceneName);
