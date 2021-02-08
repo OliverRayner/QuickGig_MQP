@@ -64,7 +64,6 @@ private async void WaitFor5Seconds()
 
     void Wait()
     {
-        timerUI.text = "Game Over";
         nextScene();
         Invoke("nextScene", delayTime);
     }

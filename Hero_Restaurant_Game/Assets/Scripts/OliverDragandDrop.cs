@@ -39,7 +39,9 @@ public class OliverDragandDrop : MonoBehaviour
             {
                 GreenScreen = true;
             }
-            else {GreenScreen = false;}
+            else {
+                GreenScreen = false;
+            }
         }
 
         if (transform.position.y > 3.5)

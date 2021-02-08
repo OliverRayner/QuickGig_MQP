@@ -14,4 +14,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DinnerWinner.unity
     guid: 5920411fc99864a45a6a39483fcd42e6
+  - enabled: 1
+    path: Assets/Scenes/First.unity
+    guid: b3eda3a3ee01cc846993a279a0b68118
+  - enabled: 1
+    path: Assets/Scenes/Second.unity
+    guid: e46dc095387e09a4eb5752fd830ae3ed
+  - enabled: 1
+    path: Assets/Scenes/Third.unity
+    guid: e07b1f0027cb7004eaf3a350f20f8fcb
+  - enabled: 1
+    path: Assets/Scenes/Fourth.unity
+    guid: d56728960722e7046925065b8db558f4
+  - enabled: 1
+    path: Assets/Scenes/Fifth.unity
+    guid: 7e9668cb3555d204290ceeddbde8dfdb
+  - enabled: 1
+    path: Assets/Scenes/Sixth.unity
+    guid: 2b63ee5d7710d944499da9b8d4ef1bbb
+  - enabled: 1
+    path: Assets/Scenes/Seventh.unity
+    guid: 08625f7b22f27c742870fffe4f3717ef
+  - enabled: 1
+    path: Assets/Scenes/Eighth.unity
+    guid: 2ea2196ea35ed0648a19593f11396d72
+  - enabled: 1
+    path: Assets/Scenes/Ninth.unity
+    guid: 18998365d62ef304f9e002ce201b9ad4
+  - enabled: 1
+    path: Assets/Scenes/Tenth.unity
+    guid: e422bb217825fa3459c803fba9e3a694
   m_configObjects: {}
