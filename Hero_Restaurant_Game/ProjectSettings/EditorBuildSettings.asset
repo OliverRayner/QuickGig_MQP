@@ -15,33 +15,48 @@ EditorBuildSettings:
     path: Assets/Scenes/DinnerWinner.unity
     guid: 5920411fc99864a45a6a39483fcd42e6
   - enabled: 1
-    path: Assets/Scenes/First.unity
-    guid: b3eda3a3ee01cc846993a279a0b68118
+    path: Assets/Scenes/GameFirst.unity
+    guid: d1007ea70f0149a4b8ee7ce80a46bcba
   - enabled: 1
-    path: Assets/Scenes/Second.unity
-    guid: e46dc095387e09a4eb5752fd830ae3ed
+    path: Assets/Scenes/GameSecond.unity
+    guid: 910d2cfeee0a59c4593d1d5400cce1d8
   - enabled: 1
-    path: Assets/Scenes/Third.unity
-    guid: e07b1f0027cb7004eaf3a350f20f8fcb
+    path: Assets/Scenes/GameThird.unity
+    guid: 0909f907e61b7614f99cca7129a6761e
   - enabled: 1
-    path: Assets/Scenes/Fourth.unity
-    guid: d56728960722e7046925065b8db558f4
+    path: Assets/Scenes/GameFourth.unity
+    guid: 6a8bd24801898fd4e9d5175e0eaea0b3
   - enabled: 1
-    path: Assets/Scenes/Fifth.unity
-    guid: 7e9668cb3555d204290ceeddbde8dfdb
+    path: Assets/Scenes/GameFifth.unity
+    guid: d9e465b14fac4e742803eae9e6fbd7d3
   - enabled: 1
-    path: Assets/Scenes/Sixth.unity
-    guid: 2b63ee5d7710d944499da9b8d4ef1bbb
+    path: Assets/Scenes/GameSixth.unity
+    guid: 6c531f5c4838e9c4fa93043fa91acb17
   - enabled: 1
-    path: Assets/Scenes/Seventh.unity
-    guid: 08625f7b22f27c742870fffe4f3717ef
+    path: Assets/Scenes/GameSeventh.unity
+    guid: 9db17d422f7fcbb4ab873f3b84f25e26
   - enabled: 1
-    path: Assets/Scenes/Eighth.unity
-    guid: 2ea2196ea35ed0648a19593f11396d72
+    path: Assets/Scenes/GameEighth.unity
+    guid: ebaa33a07ec47104d837b85141361ab3
   - enabled: 1
-    path: Assets/Scenes/Ninth.unity
-    guid: 18998365d62ef304f9e002ce201b9ad4
+    path: Assets/Scenes/GameNinth.unity
+    guid: 4f60a62657f438d47941e5965f055335
   - enabled: 1
-    path: Assets/Scenes/Tenth.unity
-    guid: e422bb217825fa3459c803fba9e3a694
+    path: Assets/Scenes/GameTenth.unity
+    guid: 095afcb50633a3348b97217f7e4bca0e
+  - enabled: 1
+    path: Assets/Scenes/GameEleventh.unity
+    guid: 137651f1bbdd8034d89c4a9b11fd18cf
+  - enabled: 1
+    path: Assets/Scenes/GameTwelfth.unity
+    guid: f7af0a263d348294ca289d97e1ef4563
+  - enabled: 1
+    path: Assets/Scenes/GameThirteenth.unity
+    guid: 0d8130f86f3552d48866d28359115105
+  - enabled: 1
+    path: Assets/Scenes/GameFourteenth.unity
+    guid: 6263dd970f5b6eb459cf479239d9b55d
+  - enabled: 1
+    path: Assets/Scenes/GameFifteenth.unity
+    guid: d736c2b34e36d0047b2c65d4f94eaa54
   m_configObjects: {}

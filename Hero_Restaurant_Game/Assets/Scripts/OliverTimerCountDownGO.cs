@@ -11,6 +11,7 @@ public class OliverTimerCountDownGO : MonoBehaviour
     public int countDownStartValue = 20;
     public Text timerUI;
     public float delayTime = 5.0f;
+    private AudioClip failSound;
     
     public void Restart() {
         string currentSceneName = SceneManager.GetActiveScene().name;
@@ -22,6 +23,7 @@ public class OliverTimerCountDownGO : MonoBehaviour
     void Start()
     {
         countDownTimer();
+                failSound = (AudioClip)Resources.Load("TimesUp");
     }
 
     void countDownTimer()
@@ -36,6 +38,7 @@ public class OliverTimerCountDownGO : MonoBehaviour
         else
         {
             Wait();
+            
         }
 
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class OliverTheGreenTrig : MonoBehaviour
 {
     Collider2D GreenTrigger;
@@ -29,7 +30,21 @@ public class OliverTheGreenTrig : MonoBehaviour
 
         if (EmptyPlate == FoodTotal && LoopNumber.text == OrderNumber.text)
         {
-            SceneManager.LoadScene("DinnerWinner");
+            string[] scenes = {"GameFirst","GameSecond","GameThird","GameFourth",
+        "GameFifth","GameSixth","GameSeventh","GameEighth","GameNinth","GameTenth",
+        "GameEleventh","GameTwelfth","GameThirteenth","GameFourteenth","GameFifteenth"};
+
+
+            int answer = Random.Range(0, 14);
+
+            string show = scenes[answer];
+
+            SceneManager.LoadScene(show);
+        }
+
+        if (NumFinders == 10){
+            SceneManager.LoadScene("MainMenu");
         }
     }
+
 }
