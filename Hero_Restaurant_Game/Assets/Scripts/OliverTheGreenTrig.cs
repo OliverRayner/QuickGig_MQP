@@ -40,10 +40,14 @@ public class OliverTheGreenTrig : MonoBehaviour
             string show = scenes[answer];
 
             SceneManager.LoadScene(show);
+
+            NumFinders += 1;
         }
 
-        if (NumFinders == 10){
-            SceneManager.LoadScene("MainMenu");
+        if (NumFinders == 10)
+        {
+            SceneManager.LoadScene("DinnerWinner");
+            NumFinders = 0;
         }
     }
 
