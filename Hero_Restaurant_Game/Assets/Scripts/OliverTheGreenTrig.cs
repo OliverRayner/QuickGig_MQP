@@ -10,7 +10,7 @@ public class OliverTheGreenTrig : MonoBehaviour
     public int FoodTotal;
     public Text LoopNumber;
     public Text OrderNumber;
-    static int NumFinders = 0;       
+    public static int NumFinders = 0;       
     void Awake()
     {
         GreenTrigger = gameObject.GetComponent<Collider2D>();

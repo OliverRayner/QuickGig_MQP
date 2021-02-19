@@ -50,7 +50,7 @@ public class OliverDragandDrop : MonoBehaviour
             SceneManager.LoadScene(currentSceneName);
         }
 
-        if (transform.position.x > 8.2)
+        if (transform.position.x > 7.8)
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(currentSceneName);
@@ -62,7 +62,7 @@ public class OliverDragandDrop : MonoBehaviour
             SceneManager.LoadScene(currentSceneName);
         }
 
-        if (transform.position.x < 1.5)
+        if (transform.position.x < 1)
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(currentSceneName);

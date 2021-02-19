@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 114015663}
   m_Layer: 0
   m_Name: DragNoodles
-  m_TagString: Untagged
+  m_TagString: Drag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -891,7 +891,7 @@ Transform:
   m_GameObject: {fileID: 196552613}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0008697828, y: 0.0006110862, z: 25}
-  m_LocalScale: {x: 0.000098217286, y: 0.00017460847, z: 0.18857718}
+  m_LocalScale: {x: 0.00009392729, y: 0.000159244, z: 0.18857718}
   m_Children: []
   m_Father: {fileID: 1382569359}
   m_RootOrder: 17
@@ -1000,7 +1000,7 @@ Transform:
   m_GameObject: {fileID: 235226799}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.001401043, y: -0.0018426399, z: 25}
-  m_LocalScale: {x: 0.00010499068, y: 0.00018665007, z: 0.20158209}
+  m_LocalScale: {x: 0.00008469553, y: 0.0001435925, z: 0.20158209}
   m_Children: []
   m_Father: {fileID: 1382569359}
   m_RootOrder: 19
@@ -1103,7 +1103,7 @@ GameObject:
   - component: {fileID: 337176109}
   m_Layer: 0
   m_Name: DragMeat
-  m_TagString: Untagged
+  m_TagString: Drag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1349,7 +1349,7 @@ Transform:
   m_GameObject: {fileID: 465797018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0017604193, y: 0.0007870144, z: 25}
-  m_LocalScale: {x: 0.000082840095, y: 0.00014727126, z: 0.15905297}
+  m_LocalScale: {x: 0.00009394329, y: 0.0001592711, z: 0.15905297}
   m_Children: []
   m_Father: {fileID: 1382569359}
   m_RootOrder: 16
@@ -1699,7 +1699,7 @@ GameObject:
   - component: {fileID: 770803137}
   m_Layer: 0
   m_Name: DragCheese
-  m_TagString: Untagged
+  m_TagString: Drag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2109,7 +2109,7 @@ Transform:
   m_GameObject: {fileID: 915605866}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0014166833, y: -0.000083358194, z: 25}
-  m_LocalScale: {x: 0.00007739828, y: 0.00013759693, z: 0.14860469}
+  m_LocalScale: {x: 0.00008143244, y: 0.0001380602, z: 0.14860469}
   m_Children: []
   m_Father: {fileID: 1382569359}
   m_RootOrder: 18
@@ -3119,7 +3119,7 @@ GameObject:
   - component: {fileID: 1335775873}
   m_Layer: 0
   m_Name: DragIceCream
-  m_TagString: Untagged
+  m_TagString: Drag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3339,8 +3339,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336846235}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.002304093, y: -0.00027776646, z: 25}
-  m_LocalScale: {x: 0.0015734502, y: 0.0011196525, z: 0.86172}
+  m_LocalPosition: {x: 0.002309275, y: -0.00027776646, z: 25}
+  m_LocalScale: {x: 0.001574417, y: 0.0011196525, z: 0.86172}
   m_Children: []
   m_Father: {fileID: 1382569359}
   m_RootOrder: 6
