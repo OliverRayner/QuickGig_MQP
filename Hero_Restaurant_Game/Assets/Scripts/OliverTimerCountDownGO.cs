@@ -62,7 +62,7 @@ private async void WaitFor5Seconds()
 
     void nextScene()
     {
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene("QGGO");
         OliverTheGreenTrig.NumFinders = 0;
     }
 

@@ -39,21 +39,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
+  - name: QuickGigBackground
     uniqueID: 2861955835
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: On_Background
+  - name: QuickGigOn_Background
     uniqueID: 2272479443
     locked: 0
-  - name: On_Master
+  - name: QuickGigOn_Master
     uniqueID: 779353035
     locked: 0
-  - name: Top_Runnerup
+  - name: QuickGigTop_Runnerup
     uniqueID: 1733209873
     locked: 0
-  - name: Top
+  - name: QuickGigTop
     uniqueID: 2081848277
     locked: 0

@@ -30,12 +30,9 @@ public class OliverTheGreenTrig : MonoBehaviour
 
         if (EmptyPlate == FoodTotal && LoopNumber.text == OrderNumber.text)
         {
-            string[] scenes = {"GameFirst","GameSecond","GameThird","GameFourth",
-        "GameFifth","GameSixth","GameSeventh","GameEighth","GameNinth","GameTenth",
-        "GameEleventh","GameTwelfth","GameThirteenth","GameFourteenth","GameFifteenth"};
+            string[] scenes = {"QG1","QG2","QG3","QG4","QG5","QG6","QG7","QG8","QG9","QG10","QG11","QG12","QG13","QG14","QG15"};
 
-
-            int answer = Random.Range(0, 14);
+            int answer = Random.Range(0,14);
 
             string show = scenes[answer];
 
@@ -46,7 +43,7 @@ public class OliverTheGreenTrig : MonoBehaviour
 
         if (NumFinders == 10)
         {
-            SceneManager.LoadScene("DinnerWinner");
+            SceneManager.LoadScene("QGDW");
             NumFinders = 0;
         }
     }
