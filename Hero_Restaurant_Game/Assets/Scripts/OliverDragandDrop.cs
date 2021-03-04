@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class OliverDragandDrop : MonoBehaviour
+public class OliverDragandDrop : MonoBehaviour, IDragHandler
 {
     private Collider2D DragObject;
     private Collider2D GreenTrigger;
-
+    private RectTransform rectTransform;
     private bool isDragging;
     private bool GreenScreen;
     public int Organizer;
@@ -18,14 +20,14 @@ public class OliverDragandDrop : MonoBehaviour
         GreenTrigger = GameObject.Find("GreenTrig").GetComponent<Collider2D>();
     }
 
-    public void OnMouseDown()
+    private void Start()
     {
-        isDragging = true;
+        rectTransform = GetComponent<RectTransform>();
     }
 
-    public void OnMouseUp()
+    public void OnDrag(PointerEventData eventData)
     {
-        isDragging = false;
+        rectTransform.anchoredPosition += eventData.delta;
     }
     // Update is called once per frame
     void Update()
@@ -43,7 +45,7 @@ public class OliverDragandDrop : MonoBehaviour
                 GreenScreen = false;
             }
         }
-
+/*
         if (transform.position.y > 3.5)
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
@@ -67,7 +69,7 @@ public class OliverDragandDrop : MonoBehaviour
             string currentSceneName = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(currentSceneName);
         }
-
+*/
 
     }
 }
