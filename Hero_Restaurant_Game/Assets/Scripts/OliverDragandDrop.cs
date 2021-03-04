@@ -1,12 +1,12 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class OliverDragandDrop : MonoBehaviour, IDragHandler
-{
+public class OliverDragandDrop : MonoBehaviour, IDragHandler{
+    [SerializeField] public Canvas size;
     private Collider2D DragObject;
     private Collider2D GreenTrigger;
     private RectTransform rectTransform;
@@ -16,8 +16,9 @@ public class OliverDragandDrop : MonoBehaviour, IDragHandler
 
     public void Awake()
     {
-        DragObject = gameObject.GetComponent<Collider2D>();
-        GreenTrigger = GameObject.Find("GreenTrig").GetComponent<Collider2D>();
+        Collider2D collider2D1 = gameObject.GetComponent<Collider2D>();
+        DragObject = collider2D1;
+        GreenTrigger = GameObject.Find("GreenTrigger").GetComponent<Collider2D>();
     }
 
     private void Start()
@@ -27,7 +28,7 @@ public class OliverDragandDrop : MonoBehaviour, IDragHandler
 
     public void OnDrag(PointerEventData eventData)
     {
-        rectTransform.anchoredPosition += eventData.delta;
+        rectTransform.anchoredPosition += eventData.delta / size.scaleFactor;
     }
     // Update is called once per frame
     void Update()
@@ -39,37 +40,12 @@ public class OliverDragandDrop : MonoBehaviour, IDragHandler
 
             if(DragObject.bounds.Intersects(GreenTrigger.bounds))
             {
+                
                 GreenScreen = true;
-            }
+                }
             else {
                 GreenScreen = false;
             }
         }
-/*
-        if (transform.position.y > 3.5)
-        {
-            string currentSceneName = SceneManager.GetActiveScene().name;
-            SceneManager.LoadScene(currentSceneName);
-        }
-
-        if (transform.position.x > 7.8)
-        {
-            string currentSceneName = SceneManager.GetActiveScene().name;
-            SceneManager.LoadScene(currentSceneName);
-        }
-
-        if (transform.position.y < -1.5)
-        {
-            string currentSceneName = SceneManager.GetActiveScene().name;
-            SceneManager.LoadScene(currentSceneName);
-        }
-
-        if (transform.position.x < 1)
-        {
-            string currentSceneName = SceneManager.GetActiveScene().name;
-            SceneManager.LoadScene(currentSceneName);
-        }
-*/
-
     }
 }
