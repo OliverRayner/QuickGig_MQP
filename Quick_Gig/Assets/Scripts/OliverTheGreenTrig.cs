@@ -36,7 +36,7 @@ public class OliverTheGreenTrig : MonoBehaviour
 
         if (EmptyPlate == FoodTotal && LoopNumber.text == OrderNumber.text)
         {
-            StartCoroutine(PlayCorrectSound());
+            Changer();
         }
 
         if (NumFinders == 10)
@@ -57,13 +57,14 @@ public class OliverTheGreenTrig : MonoBehaviour
             NumFinders += 1;
 
         }
-
+/*
         IEnumerator PlayCorrectSound(){
             Changer();
             audioSource.clip = correctSound;
             audioSource.Play();
             yield return new WaitUntil(() => audioSource.isPlaying == false);
         }
+        */
     }
 
 }
